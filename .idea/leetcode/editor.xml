@@ -91,6 +91,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/_167_两数之和 II - 输入有序数组.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/_167_两数之和 II - 输入有序数组.java" />
+              <option name="questionId" value="167" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/_19_删除链表的倒数第 N 个结点.java">
           <value>
             <LeetcodeEditor>
@@ -131,6 +139,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/_234_回文链表.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/_234_回文链表.java" />
+              <option name="questionId" value="234" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/_23_合并 K 个升序链表.java">
           <value>
             <LeetcodeEditor>
@@ -144,6 +160,22 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/_25_K 个一组翻转链表.java" />
               <option name="questionId" value="25" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/_26_删除有序数组中的重复项.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/_26_删除有序数组中的重复项.java" />
+              <option name="questionId" value="26" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/_27_移除元素.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/_27_移除元素.java" />
+              <option name="questionId" value="27" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -232,6 +264,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/_82_删除排序链表中的重复元素 II.java" />
               <option name="questionId" value="82" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/_83_删除排序链表中的重复元素.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/_83_删除排序链表中的重复元素.java" />
+              <option name="questionId" value="83" />
             </LeetcodeEditor>
           </value>
         </entry>

@@ -49,6 +49,7 @@ public class _315_计算右侧小于当前元素的个数 {
     public static void main(String[] args) {
         Solution solution = new _315_计算右侧小于当前元素的个数().new Solution();
         int[] nums = {5, 2, 6, 1};
+
         solution.countSmaller(nums);
     }
 
