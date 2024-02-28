@@ -59,32 +59,43 @@ package editor.cn;
 // Related Topics 数组 双指针 
 // 👍 2153 👎 0
 
-public class _27_移除元素{
-	public static void main(String[] args) {
-		Solution solution = new _27_移除元素().new Solution();
-		
-	}
-//leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public int removeElement(int[] nums, int val) {
-		int modIndx=0;
-		int quick=0;
-		while (quick<nums.length){
-			if (nums[quick++]==val){
-				modIndx=quick;
+public class _27_移除元素 {
+    public static void main(String[] args) {
+        Solution solution = new _27_移除元素().new Solution();
 
-				// 循环找到不等于val的值
-				while (quick<nums.length&&nums[++quick]==val){
-
-				}
-				// 循环表示找到了不等于val的值，将这个值复制给modIndx索引位
-				if(quick<nums.length){
-					nums[modIndx++]=val;
-				}
-			}
-		}
     }
-}
+
+    //leetcode submit region begin(Prohibit modification and deletion)
+    class Solution {
+        public int removeElement(int[] nums, int val) {
+            int modIndx = 0;
+            int quick = 0;
+            boolean find=false;
+            while (quick < nums.length) {
+                if (nums[quick] == val) {
+                    modIndx = quick;
+                    quick++;
+                    find=true;
+                    break;
+                }
+                quick++;
+
+            }
+
+            while (quick < nums.length) {
+                if (nums[quick] != val) {
+                    // 循环表示找到了不等于val的值，将这个值复制给modIndx索引位
+                    nums[modIndx++] = nums[quick];
+                }
+                quick++;
+            }
+            if (find){
+                return modIndx;
+            }else {
+                return nums.length;
+            }
+        }
+    }
 //leetcode submit region end(Prohibit modification and deletion)
 
 }
