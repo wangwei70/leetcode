@@ -54,7 +54,8 @@ import java.util.HashMap;
 public class _523_连续的子数组和 {
     public static void main(String[] args) {
         Solution solution = new _523_连续的子数组和().new Solution();
-
+        int[] nums={23,2,4,6,7};
+        solution.checkSubarraySum(nums,6);
     }
 
 
@@ -88,11 +89,14 @@ public class _523_连续的子数组和 {
 
             HashMap<Integer, Integer> complementMapIdx = new HashMap<>();
 
-            for (int i = 1; i < preSums.length; i++) {
+            for (int i = 0; i < preSums.length; i++) {
                 int complement = preSums[i] % k;
                 if (complementMapIdx.containsKey(complement)) {
-                    if (complementMapIdx.get(complement)-i>1)
-                    return true;
+                    if (i-complementMapIdx.get(complement)>1){
+                        return true;
+                    }
+                }else {
+                    complementMapIdx.put(complement,i);
                 }
             }
 
