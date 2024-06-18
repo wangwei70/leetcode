@@ -58,17 +58,90 @@ package editor.cn;
 // Related Topics 字符串 动态规划 
 // 👍 1483 👎 0
 
-public class _91_解码方法{
-	public static void main(String[] args) {
-		Solution solution = new _91_解码方法().new Solution();
-		
-	}
-//leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public int numDecodings(String s) {
-		return 0;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.List;
+
+public class _91_解码方法 {
+    public static void main(String[] args) {
+        Solution solution = new _91_解码方法().new Solution();
+//        System.out.println(solution.numDecodings("12"));
+//        System.out.println(solution.numDecodings("226"));
+//        System.out.println(solution.numDecodings("0"));
+
+//        System.out.println(solution.numDecodings("10"));
+        System.out.println(solution.numDecodings("2611055971756562"));
+
     }
-}
+
+    //leetcode submit region begin(Prohibit modification and deletion)
+    class Solution {
+        public int numDecodings(String s) {
+            if (s.length()<=1){
+               return check(s)?1:0;
+            }
+            int[] path = new int[s.length() - 1];
+            Arrays.fill(path, -1);
+            backTrack(path, 0, s.toCharArray());
+            return res.size() ;
+        }
+
+
+        // 暴力回溯 超时
+        public HashSet<List> res = new HashSet<>();
+        private void backTrack(int[] path, int idx, char[] chars) {
+            if (idx >= path.length) {
+                int pre = -1;
+                boolean add = false;
+                for (int i = 0; i < chars.length; i++) {
+                    if (i==chars.length-1||path[i] == 1) {
+                        String str = String.copyValueOf(chars, pre + 1, i - pre);
+                        pre = i;
+                        if (!check(str)) {
+                            return;
+                        }
+                    }
+                    add = true;
+                }
+
+                if (!add) {
+                    return;
+                }
+
+                ArrayList<Integer> list = new ArrayList<>();
+                for (int i : path) {
+                    list.add(i);
+                }
+                res.add(list);
+                return;
+            }
+
+            // 不选择
+            path[idx] = 0;
+            backTrack(path, idx + 1, chars);
+            path[idx] = -1;
+            // 选择
+            path[idx] = 1;
+            backTrack(path, idx + 1, chars);
+            path[idx] = -1;
+
+        }
+
+        private boolean check(String str) {
+            int i;
+            try{
+                 i = Integer.parseInt(str);
+            }catch (NumberFormatException e){
+                return false;
+            }
+
+            if (i > 26 || i <= 0) return false;
+            if (str.startsWith("0")) return false;
+
+            return true;
+        }
+    }
 //leetcode submit region end(Prohibit modification and deletion)
 
 }
