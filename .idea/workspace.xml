@@ -4,11 +4,13 @@
     <bookmark url="file://$PROJECT_DIR$/src/leetcode/editor/cn/_283_移动零.java" line="18" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b94adeef-86ca-4532-8425-1a655df33565" name="Default Changelist" comment="">
+    <list default="true" id="b94adeef-86ca-4532-8425-1a655df33565" name="Default Changelist" comment="滑动窗口">
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/all.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/translation.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/production/leetcode/editor/cn/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/production/leetcode/editor/cn/all.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/production/leetcode/editor/cn/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/production/leetcode/editor/cn/translation.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,10 +40,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/editor/cn/_1248_统计优美子数组.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/editor/cn/_1456_定长子串中元音的最大数目.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1258">
-              <caret line="64" column="17" lean-forward="true" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
+            <state relative-caret-position="-564">
+              <caret line="64" column="33" lean-forward="true" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,17 +89,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/editor/cn/_1109_航班预订统计.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/editor/cn/_1094_拼车.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/editor/cn/_724_寻找数组的中心下标.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/editor/cn/_525_连续数组.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/editor/cn/_3_无重复字符的最长子串.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/editor/cn/_209_长度最小的子数组.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/editor/cn/_238_除自身以外数组的乘积.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/editor/cn/_497_非重叠矩形中的随机点.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/editor/cn/_523_连续的子数组和.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/editor/cn/_528_按权重随机选择.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/editor/cn/_560_和为 K 的子数组.java" />
         <option value="$PROJECT_DIR$/src/leetcode/editor/cn/_560_和为_K_的子数组.java" />
         <option value="$PROJECT_DIR$/src/leetcode/editor/cn/_76_最小覆盖子串.java" />
         <option value="$PROJECT_DIR$/src/leetcode/editor/cn/_30_串联所有单词的子串.java" />
@@ -135,6 +129,17 @@
         <option value="$PROJECT_DIR$/src/leetcode/editor/cn/_1234_替换子串得到平衡字符串.java" />
         <option value="$PROJECT_DIR$/src/leetcode/editor/cn/_1248_统计「优美子数组」.java" />
         <option value="$PROJECT_DIR$/src/leetcode/editor/cn/_1248_统计优美子数组.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/editor/cn/_LCR 184_设计自助结算系统.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/editor/cn/_1438_绝对差不超过限制的最长连续子数组.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/editor/cn/_LCR_184_设计自助结算系统.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/editor/cn/_2741_特别的排列.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/editor/cn/_1297_子串的最大出现次数.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/editor/cn/_718_最长重复子数组.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/editor/cn/_1343_大小为 K 且平均值大于等于阈值的子数组数目.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/editor/cn/_1343_大小为_K_且平均值大于等于阈值的子数组数目.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/editor/cn/_1358_包含所有三种字符的子字符串数目.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/editor/cn/_1423_可获得的最大点数.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/editor/cn/_1456_定长子串中元音的最大数目.java" />
       </list>
     </option>
   </component>
@@ -157,11 +162,10 @@
     <option name="jreName" value="#JAVA_INTERNAL" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-10" />
+    <option name="width" value="1935" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -171,7 +175,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -226,12 +229,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1718766805745" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1719555017097" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../study" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -254,9 +258,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application._1248_统计优美子数组">
-    <configuration name="_1004_最大连续1的个数_III" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="editor.cn._1004_最大连续1的个数_III" />
+  <component name="RunManager" selected="Application._1456_定长子串中元音的最大数目">
+    <configuration name="_1297_子串的最大出现次数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="editor.cn._1297_子串的最大出现次数" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -268,8 +272,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_1234_替换子串得到平衡字符串" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="editor.cn._1234_替换子串得到平衡字符串" />
+    <configuration name="_1343_大小为_K_且平均值大于等于阈值的子数组数目" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="editor.cn._1343_大小为_K_且平均值大于等于阈值的子数组数目" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -281,8 +285,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_1248_统计优美子数组" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="editor.cn._1248_统计优美子数组" />
+    <configuration name="_1423_可获得的最大点数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="editor.cn._1423_可获得的最大点数" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -294,8 +298,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_424_替换后的最长重复字符" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="editor.cn._424_替换后的最长重复字符" />
+    <configuration name="_1456_定长子串中元音的最大数目" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="editor.cn._1456_定长子串中元音的最大数目" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -307,8 +311,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_978_最长湍流子数组" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="editor.cn._978_最长湍流子数组" />
+    <configuration name="_718_最长重复子数组" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="editor.cn._718_最长重复子数组" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -321,19 +325,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application._978_最长湍流子数组" />
-      <item itemvalue="Application._1004_最大连续1的个数_III" />
-      <item itemvalue="Application._424_替换后的最长重复字符" />
-      <item itemvalue="Application._1234_替换子串得到平衡字符串" />
-      <item itemvalue="Application._1248_统计优美子数组" />
+      <item itemvalue="Application._1297_子串的最大出现次数" />
+      <item itemvalue="Application._718_最长重复子数组" />
+      <item itemvalue="Application._1343_大小为_K_且平均值大于等于阈值的子数组数目" />
+      <item itemvalue="Application._1423_可获得的最大点数" />
+      <item itemvalue="Application._1456_定长子串中元音的最大数目" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application._1248_统计优美子数组" />
-        <item itemvalue="Application._1234_替换子串得到平衡字符串" />
-        <item itemvalue="Application._424_替换后的最长重复字符" />
-        <item itemvalue="Application._1004_最大连续1的个数_III" />
-        <item itemvalue="Application._978_最长湍流子数组" />
+        <item itemvalue="Application._1456_定长子串中元音的最大数目" />
+        <item itemvalue="Application._1423_可获得的最大点数" />
+        <item itemvalue="Application._1343_大小为_K_且平均值大于等于阈值的子数组数目" />
+        <item itemvalue="Application._718_最长重复子数组" />
+        <item itemvalue="Application._1297_子串的最大出现次数" />
       </list>
     </recent_temporary>
   </component>
@@ -401,7 +405,11 @@
       <workItem from="1718177685655" duration="23063000" />
       <workItem from="1718330744503" duration="14760000" />
       <workItem from="1718587785190" duration="19059000" />
-      <workItem from="1718679948118" duration="11496000" />
+      <workItem from="1718679948118" duration="11639000" />
+      <workItem from="1718776894364" duration="11000" />
+      <workItem from="1718939413486" duration="595000" />
+      <workItem from="1719196592421" duration="41158000" />
+      <workItem from="1719813460930" duration="12000" />
     </task>
     <task id="LOCAL-00001" summary="数组1">
       <created>1708606868361</created>
@@ -459,16 +467,23 @@
       <option name="project" value="LOCAL" />
       <updated>1718680129762</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="滑动窗口">
+      <created>1718775909277</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1718775909277</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="440038000" />
+    <option name="totallyTimeSpent" value="481957000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="1" width="1548" height="830" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4957507" visible="true" weight="0.28705567" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4957507" visible="true" weight="0.2981867" />
       <window_info id="Structure" order="1" sideWeight="0.5042493" side_tool="true" weight="0.28638497" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -478,22 +493,22 @@
       <window_info id="Web" order="7" sideWeight="0.5042493" side_tool="true" weight="0.28686327" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.2082153" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49899396" visible="true" weight="0.22237961" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.28837878" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49899396" weight="0.3400287" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32956153" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.23087819" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.29555237" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.501006" side_tool="true" weight="0.31303117" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3753541" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.37429377" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.3286119" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32956153" />
       <window_info anchor="bottom" id="Sequence Diagram" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.49712092" weight="0.24949698" />
+      <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.49464667" weight="0.24932796" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" sideWeight="0.26628897" weight="0.3293092" />
       <window_info anchor="right" id="Maven" order="4" sideWeight="0.44186047" weight="0.2642522" />
@@ -502,7 +517,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
-      <window_info anchor="right" id="leetcode" order="10" sideWeight="0.55813956" side_tool="true" weight="0.2642522" />
+      <window_info anchor="right" id="leetcode" order="10" sideWeight="0.50535333" side_tool="true" weight="0.24932796" />
       <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.2622401" />
     </layout>
   </component>
@@ -1165,16 +1180,64 @@
           <option name="timeStamp" value="248" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/_1248_统计优美子数组.java</url>
-          <line>72</line>
+          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/_2741_特别的排列.java</url>
+          <line>57</line>
           <properties />
-          <option name="timeStamp" value="251" />
+          <option name="timeStamp" value="275" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/_1248_统计优美子数组.java</url>
-          <line>61</line>
+          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/_1297_子串的最大出现次数.java</url>
+          <line>75</line>
           <properties />
-          <option name="timeStamp" value="257" />
+          <option name="timeStamp" value="290" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/_1297_子串的最大出现次数.java</url>
+          <line>82</line>
+          <properties />
+          <option name="timeStamp" value="295" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/_1343_大小为_K_且平均值大于等于阈值的子数组数目.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="301" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/_1423_可获得的最大点数.java</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="304" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/_1423_可获得的最大点数.java</url>
+          <line>79</line>
+          <properties />
+          <option name="timeStamp" value="305" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/_1456_定长子串中元音的最大数目.java</url>
+          <line>85</line>
+          <properties />
+          <option name="timeStamp" value="307" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/_1456_定长子串中元音的最大数目.java</url>
+          <line>99</line>
+          <properties />
+          <option name="timeStamp" value="308" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/_1456_定长子串中元音的最大数目.java</url>
+          <line>90</line>
+          <properties />
+          <option name="timeStamp" value="309" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/_1456_定长子串中元音的最大数目.java</url>
+          <line>95</line>
+          <properties />
+          <option name="timeStamp" value="310" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/_1094_拼车.java</url>
@@ -1232,6 +1295,31 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>s.length(</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>s.length()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>preSum[i + n - k]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>dp[i + 1][j + 1]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>mem.get(&quot;10#1111100&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>nums[i - 1] / 2</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -1256,110 +1344,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>chars[l]</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>maxSumForContainCurrentNode(root)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/jdk1.8/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="973" column="16" selection-start-line="973" selection-start-column="16" selection-end-line="973" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk1.8/src.zip!/java/security/SecureClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="170" column="34" lean-forward="true" selection-start-line="170" selection-start-column="34" selection-end-line="170" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk1.8/src.zip!/java/lang/ClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="165" column="2" lean-forward="true" selection-start-line="165" selection-start-column="2" selection-end-line="165" selection-end-column="2" />
-          <folding>
-            <element signature="e#11991#11992#0" expanded="true" />
-            <element signature="e#12045#12046#0" expanded="true" />
-            <element signature="e#12720#12721#0" expanded="true" />
-            <element signature="e#12790#12791#0" expanded="true" />
-            <element signature="e#40716#40717#0" expanded="true" />
-            <element signature="e#40753#40754#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk1.8/src.zip!/java/net/URLClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="74" column="35" lean-forward="true" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/editor/cn/_83_删除排序链表中的重复元素.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="47" column="8" lean-forward="true" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/editor/cn/_104_二叉树的最大深度.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/editor/cn/_105_从前序与中序遍历序列构造二叉树.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/editor/cn/_142_环形链表II.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/editor/cn/_151_反转字符串中的单词.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="107" column="9" lean-forward="true" selection-start-line="63" selection-start-column="8" selection-end-line="107" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/editor/cn/_165_比较版本号.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="821">
-          <caret line="95" column="9" lean-forward="true" selection-start-line="67" selection-start-column="8" selection-end-line="95" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/editor/cn/_167_两数之和II输入有序数组.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="401">
@@ -1541,13 +1528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/jdk1.8/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/editor/cn/_91_解码方法.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-243">
@@ -1588,13 +1568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
           <caret line="71" column="52" lean-forward="true" selection-start-line="71" selection-start-column="52" selection-end-line="71" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/editor/cn/_643_子数组最大平均数_I.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="54" column="8" lean-forward="true" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -1662,8 +1635,101 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/editor/cn/_1248_统计优美子数组.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="64" column="17" lean-forward="true" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
+        <state relative-caret-position="-16">
+          <caret line="40" column="33" lean-forward="true" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/editor/cn/_1438_绝对差不超过限制的最长连续子数组.java" />
+    <entry file="file://$PROJECT_DIR$/src/leetcode/editor/cn/_LCR_184_设计自助结算系统.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1539">
+          <caret line="88" column="5" lean-forward="true" selection-start-line="57" selection-start-column="4" selection-end-line="88" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1015#1016#0" expanded="true" />
+            <element signature="e#1081#1082#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk1.8/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="599" column="6" selection-start-line="599" selection-start-column="6" selection-end-line="599" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/editor/cn/_2741_特别的排列.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="86" column="41" lean-forward="true" selection-start-line="86" selection-start-column="41" selection-end-line="86" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/editor/cn/_344_反转字符串.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/editor/cn/_643_子数组最大平均数_I.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/editor/cn/_303_区域和检索_数组不可变.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/editor/cn/_718_最长重复子数组.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1030">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/editor/cn/_1297_子串的最大出现次数.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/editor/cn/_1343_大小为_K_且平均值大于等于阈值的子数组数目.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="61" column="21" lean-forward="true" selection-start-line="47" selection-start-column="8" selection-end-line="61" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/editor/cn/_1358_包含所有三种字符的子字符串数目.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="62" column="17" lean-forward="true" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/editor/cn/_1423_可获得的最大点数.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="78" column="32" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/editor/cn/_1456_定长子串中元音的最大数目.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-564">
+          <caret line="64" column="33" lean-forward="true" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
